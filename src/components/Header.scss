@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    .Logo {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        padding: 30px;
+    }
+    .Navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 30px;
+        gap: 50px;
+        margin-left: auto;
+        align-items: center;
+    }
+}
