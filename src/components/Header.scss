@@ -1,13 +1,18 @@
 .Header {
     display: flex;
     flex-direction: row;
+    background-color: #393939;
+    height: 100px;
     .Logo {
+        display: flex;
+        align-items: center;
         font-family: "Gilroy";
         font-style: normal;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
         padding: 30px;
+        color: #ffffff;
     }
     .Navigation {
         display: flex;

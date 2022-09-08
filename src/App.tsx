@@ -4,6 +4,8 @@ import Title from "./components/Title";
 import Header from "./components/Header";
 import NavElement from "./components/NavElement";
 import NavButton from "./components/NavButton";
+import Socials from "./components/Socials";
+import ContactInfo from "./components/ContactInfo";
 
 function App() {
     return (
@@ -16,7 +18,9 @@ function App() {
                 <NavElement>Projects</NavElement>
                 <NavButton>Contact</NavButton>
             </Header>
-            <Title>I’m a very big title.</Title>
+            <Title></Title>
+            <Socials></Socials>
+            <ContactInfo></ContactInfo>
         </div>
     );
 }
