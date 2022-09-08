@@ -1,8 +1,36 @@
-h1 {
-    font-family: "Gilroy";
-    font-style: n;
-    font-weight: 700;
-    font-size: 170px;
-    line-height: 206px;
-    color: #000000;
+.Title {
+    padding: 30px;
+    h1 {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 170px;
+        line-height: 206px;
+        color: #000000;
+        margin: 0px;
+        white-space: nowrap;
+    }
+    span {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 170px;
+        line-height: 206px;
+        color: #5a75ff;
+        margin: 0px;
+        animation: 1.5s cubic-bezier(0, 0, 0, 1) 0s 1 slideInFromLeft;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0%;
+        margin-left: 50vw;
+    }
+    90% {
+        opacity: 100%;
+    }
+    100% {
+        margin-left: 0px;
+    }
 }
