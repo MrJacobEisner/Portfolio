@@ -1,3 +1,5 @@
+@import "Styles.scss";
+
 .NavButton {
     display: block;
     padding: 10px;
@@ -8,12 +10,7 @@
     border-radius: 10px;
 
     h3 {
-        font-family: "Gilroy";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
-        margin: 0px;
+        margin: 0;
         color: #5a75ff;
     }
 }

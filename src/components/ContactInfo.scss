@@ -1,3 +1,5 @@
+@import "Styles.scss";
+
 .ContactInfo {
     display: flex;
     flex-direction: row;
@@ -7,22 +9,5 @@
 
     div {
         max-width: 300px;
-        h3 {
-            font-family: "Gilroy";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 36px;
-            margin: 0px;
-        }
-        h4 {
-            font-family: "Gilroy";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-        }
     }
 }
