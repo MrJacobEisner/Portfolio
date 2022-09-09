@@ -1,0 +1,13 @@
+@import "Styles.scss";
+
+.Paragraph {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    h2,
+    h3,
+    h4,
+    p {
+        margin: 0px;
+    }
+}
