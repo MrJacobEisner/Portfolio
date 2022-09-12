@@ -8,6 +8,8 @@ import Socials from "./components/Socials";
 import ContactInfo from "./components/ContactInfo";
 import ParagraphHorizontal from "./components/ParagraphHorizontal";
 import Paragraph from "./components/Paragraph";
+import TechIcon from "./components/TechIcon";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -20,7 +22,7 @@ function App() {
                 <NavElement>Projects</NavElement>
                 <NavButton>Contact</NavButton>
             </Header>
-            <Title></Title>
+            <Title text1="Let's get the" text2="ball rolling"></Title>
             <Socials></Socials>
             <ContactInfo></ContactInfo>
             <ParagraphHorizontal title="About">
@@ -31,6 +33,40 @@ function App() {
                 beautiful websites or raw circuits, building things is my
                 passion and I can’t wait to build something together!
             </ParagraphHorizontal>
+            <Paragraph
+                title="Education"
+                subtitle="UC Santa Barbara"
+                header="Computer Engineering B.S. 2020 – 2024"
+            >
+                <p>Computer Science</p>
+                <ul>
+                    <li>CS 16: Problem Solving I</li>
+                    <li>CS 40: Foundations Theoretical of Computer Science</li>
+                    <li>CS 24: Problem Solving II</li>
+                    <li>CS 32: Object Oriented Design</li>
+                    <li>CS 130A: Data Structures and Algorithms</li>
+                    <li>CS 138: Automata and Formal Languages</li>
+                </ul>
+                <p>Electrical Engineering</p>
+                <ul>
+                    <li>ECE 10A: Foundation of Circuits and Systems I</li>
+                    <li>ECE 10B: Foundation of Circuits and Systems II</li>
+                    <li>ECE 10C: Foundation of Circuits and Systems III</li>
+                    <li>ECE 15A: Fundamentals of Logic Design</li>
+                    <li>ECE 152A: Digital Design Patterns</li>
+                    <li>ECE 154A: Intro to Computer Architecture</li>
+                </ul>
+            </Paragraph>
+            <Paragraph title="Technology">
+                <TechIcon>React</TechIcon>
+                <TechIcon>TypeScript</TechIcon>
+                <TechIcon>HTML & CSS</TechIcon>
+                <TechIcon>C++</TechIcon>
+                <TechIcon>Python</TechIcon>
+                <TechIcon>Figma</TechIcon>
+                <TechIcon>Docker</TechIcon>
+                <TechIcon>Git</TechIcon>
+            </Paragraph>
             <Paragraph
                 title="Work Experience"
                 subtitle="True North Mortgage"
@@ -99,6 +135,9 @@ function App() {
                     </li>
                 </ul>
             </Paragraph>
+            <Title text1="Let's work" text2="together"></Title>
+            <Socials></Socials>
+            <Footer></Footer>
         </div>
     );
 }

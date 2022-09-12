@@ -1,0 +1,19 @@
+@import "Styles.scss";
+
+.Footer {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 30px;
+    background: #393939;
+
+    h3,
+    h4 {
+        color: white;
+    }
+
+    div {
+        max-width: 300px;
+    }
+}

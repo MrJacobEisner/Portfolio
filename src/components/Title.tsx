@@ -4,9 +4,10 @@ import "./Title.scss";
 function Title(props: any) {
     return (
         <div className="Title">
-            <h1>Let's get the</h1>
+            <h1>{props.text1}</h1>
             <h1>
-                ball rolling<span>.</span>
+                {props.text2}
+                <span>.</span>
             </h1>
         </div>
     );
