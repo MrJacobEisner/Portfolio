@@ -4,7 +4,7 @@ import "./NavButton.scss";
 function NavButton(props: any) {
     return (
         <div className="NavButton">
-            <h3>{props.children}</h3>
+            <h4>{props.children}</h4>
         </div>
     );
 }
