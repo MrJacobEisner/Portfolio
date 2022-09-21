@@ -10,21 +10,24 @@ import ParagraphHorizontal from "./components/ParagraphHorizontal";
 import Paragraph from "./components/Paragraph";
 import TechIcon from "./components/TechIcon";
 import Footer from "./components/Footer";
+import FullScreen from "./components/FullScreen";
 
 function App() {
     return (
         <div className="App">
-            <Header Logo="Jacob Eisner">
-                <NavElement>About</NavElement>
-                <NavElement>Education</NavElement>
-                <NavElement>Technologies</NavElement>
-                <NavElement>Work Experience</NavElement>
-                <NavElement>Projects</NavElement>
-                <NavButton>Contact</NavButton>
-            </Header>
-            <Title text1="Let's get the" text2="ball rolling"></Title>
-            <Socials></Socials>
-            <ContactInfo></ContactInfo>
+            <FullScreen>
+                <Header Logo="Jacob Eisner">
+                    <NavElement>About</NavElement>
+                    <NavElement>Education</NavElement>
+                    <NavElement>Technologies</NavElement>
+                    <NavElement>Work Experience</NavElement>
+                    <NavElement>Projects</NavElement>
+                    <NavButton>Contact</NavButton>
+                </Header>
+                <Title text1="Let's get the" text2="ball rolling"></Title>
+                <Socials></Socials>
+                <ContactInfo></ContactInfo>
+            </FullScreen>
             <ParagraphHorizontal title="About">
                 I’m Jacob, I’m a third year computer engineering major at UC
                 Santa Barbara. I love designing and building web apps that pull
@@ -135,9 +138,11 @@ function App() {
                     </li>
                 </ul>
             </Paragraph>
-            <Title text1="Let's work" text2="together"></Title>
-            <Socials></Socials>
-            <Footer></Footer>
+            <FullScreen>
+                <Title text1="Let's work" text2="together"></Title>
+                <Socials></Socials>
+                <Footer></Footer>
+            </FullScreen>
         </div>
     );
 }
