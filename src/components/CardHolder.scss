@@ -1,0 +1,9 @@
+@import "./Styles.scss";
+
+.CardHolder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #5a75ff;
+    gap: 30px;
+    padding: 30px;
+}
