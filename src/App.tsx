@@ -72,7 +72,7 @@ function App() {
                 <TechIcon>Docker</TechIcon>
                 <TechIcon>Git</TechIcon>
             </Paragraph>
-            <CardHolder>
+            <CardHolder title="Work Experience">
                 <Card
                     subtitle="True North Mortgage"
                     header="Junior Software Developer, June 2022 – Sept 2022"
