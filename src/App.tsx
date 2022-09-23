@@ -30,16 +30,19 @@ function App() {
                 <Socials></Socials>
                 <ContactInfo></ContactInfo>
             </FullScreen>
-            <CardHolder title="About">
-                <p>
-                    I’m Jacob, I’m a third year computer engineering major at UC
-                    Santa Barbara. I love designing and building web apps that
-                    pull clients and boost productivity. I have experience with
-                    finance so I can speak the language of your business.
-                    Whether it be beautiful websites or raw circuits, building
-                    things is my passion and I can’t wait to build something
-                    together!
-                </p>
+            <CardHolder>
+                <h2>About</h2>
+                <Card>
+                    <p>
+                        I’m Jacob, I’m a third year computer engineering major
+                        at UC Santa Barbara. I love designing and building web
+                        apps that pull clients and boost productivity. I have
+                        experience with finance so I can speak the language of
+                        your business. Whether it be beautiful websites or raw
+                        circuits, building things is my passion and I can’t wait
+                        to build something together!
+                    </p>
+                </Card>
             </CardHolder>
             <Paragraph
                 title="Education"
