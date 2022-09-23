@@ -31,7 +31,7 @@ function App() {
                 <ContactInfo></ContactInfo>
             </FullScreen>
             <CardHolder>
-                <h2>About</h2>
+                <h2 style={{ color: "white" }}>About</h2>
                 <Card>
                     <p>
                         I’m Jacob, I’m a third year computer engineering major
