@@ -6,7 +6,6 @@ import NavElement from "./components/NavElement";
 import NavButton from "./components/NavButton";
 import Socials from "./components/Socials";
 import ContactInfo from "./components/ContactInfo";
-import ParagraphHorizontal from "./components/ParagraphHorizontal";
 import Paragraph from "./components/Paragraph";
 import TechIcon from "./components/TechIcon";
 import Footer from "./components/Footer";
