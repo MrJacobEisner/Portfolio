@@ -63,14 +63,18 @@ function App() {
                 </ul>
             </Paragraph>
             <Paragraph title="Technology">
-                <TechIcon>React</TechIcon>
-                <TechIcon>TypeScript</TechIcon>
-                <TechIcon>HTML & CSS</TechIcon>
-                <TechIcon>C++</TechIcon>
-                <TechIcon>Python</TechIcon>
-                <TechIcon>Figma</TechIcon>
-                <TechIcon>Docker</TechIcon>
-                <TechIcon>Git</TechIcon>
+                <div>
+                    <TechIcon>React</TechIcon>
+                    <TechIcon>TypeScript</TechIcon>
+                    <TechIcon>HTML & CSS</TechIcon>
+                    <TechIcon>C++</TechIcon>
+                </div>
+                <div>
+                    <TechIcon>Python</TechIcon>
+                    <TechIcon>Figma</TechIcon>
+                    <TechIcon>Docker</TechIcon>
+                    <TechIcon>Git</TechIcon>
+                </div>
             </Paragraph>
             <CardHolder title="Work Experience">
                 <Card

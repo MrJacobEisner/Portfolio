@@ -10,4 +10,9 @@
     p {
         margin: 0px;
     }
+    .Children {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
 }
