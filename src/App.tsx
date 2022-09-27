@@ -44,30 +44,36 @@ function App() {
                     </p>
                 </Card>
             </CardHolder>
-            <Paragraph
+            <CardHolder
                 title="Education"
                 subtitle="UC Santa Barbara"
                 header="Computer Engineering B.S. 2020 – 2024"
             >
-                <p>Computer Science</p>
-                <ul>
-                    <li>CS 16: Problem Solving I</li>
-                    <li>CS 40: Foundations Theoretical of Computer Science</li>
-                    <li>CS 24: Problem Solving II</li>
-                    <li>CS 32: Object Oriented Design</li>
-                    <li>CS 130A: Data Structures and Algorithms</li>
-                    <li>CS 138: Automata and Formal Languages</li>
-                </ul>
-                <p>Electrical Engineering</p>
-                <ul>
-                    <li>ECE 10A: Foundation of Circuits and Systems I</li>
-                    <li>ECE 10B: Foundation of Circuits and Systems II</li>
-                    <li>ECE 10C: Foundation of Circuits and Systems III</li>
-                    <li>ECE 15A: Fundamentals of Logic Design</li>
-                    <li>ECE 152A: Digital Design Patterns</li>
-                    <li>ECE 154A: Intro to Computer Architecture</li>
-                </ul>
-            </Paragraph>
+                <Card>
+                    <p>Computer Science</p>
+                    <ul>
+                        <li>CS 16: Problem Solving I</li>
+                        <li>
+                            CS 40: Foundations Theoretical of Computer Science
+                        </li>
+                        <li>CS 24: Problem Solving II</li>
+                        <li>CS 32: Object Oriented Design</li>
+                        <li>CS 130A: Data Structures and Algorithms</li>
+                        <li>CS 138: Automata and Formal Languages</li>
+                    </ul>
+                </Card>
+                <Card>
+                    <p>Electrical Engineering</p>
+                    <ul>
+                        <li>ECE 10A: Foundation of Circuits and Systems I</li>
+                        <li>ECE 10B: Foundation of Circuits and Systems II</li>
+                        <li>ECE 10C: Foundation of Circuits and Systems III</li>
+                        <li>ECE 15A: Fundamentals of Logic Design</li>
+                        <li>ECE 152A: Digital Design Patterns</li>
+                        <li>ECE 154A: Intro to Computer Architecture</li>
+                    </ul>
+                </Card>
+            </CardHolder>
             <Paragraph title="Technology">
                 <TechIcon>React</TechIcon>
                 <TechIcon>TypeScript</TechIcon>
