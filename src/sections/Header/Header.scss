@@ -1,21 +1,44 @@
+h4 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// TODO MAKE SCALABLE
 .Header {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     background-color: #393939;
     height: 100px;
     .Logo {
         display: flex;
         align-items: center;
-        color: #ffffff;
         padding: 30px;
+        padding-right: 100px;
     }
     .Navigation {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-        padding: 30px;
-        gap: 50px;
-        margin-left: auto;
         align-items: center;
+        padding: 30px;
+        gap: 30px;
+        h4 {
+            font-size: 25px;
+            line-height: 36px;
+        }
+        button {
+            background: #393939;
+            border: 3px solid #5a75ff;
+            border-radius: 5px;
+            h4 {
+                color: #5a75ff;
+            }
+        }
     }
 }

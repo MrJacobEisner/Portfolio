@@ -13,8 +13,6 @@ function Header(props: any) {
                 <h4>Technologies</h4>
                 <h4>Work Experience</h4>
                 <h4>Projects</h4>
-            </div>
-            <div className="Connect">
                 <button>
                     <h4>Connect</h4>
                 </button>
