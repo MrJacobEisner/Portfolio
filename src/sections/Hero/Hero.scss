@@ -1,0 +1,73 @@
+.Hero {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1,
+    h3,
+    h4 {
+        font-family: "Gilroy";
+        font-style: normal;
+        color: #1f1f1f;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 170px;
+        line-height: 206px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0;
+    }
+    h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+    }
+    height: calc(100vh - 160px);
+    .Title {
+        span {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 170px;
+            line-height: 206px;
+            color: #5a75ff;
+            margin: 0px;
+            animation: 1.5s cubic-bezier(0, 0.5, 0, 1) 0s 1 slideInFromLeft;
+        }
+    }
+    .Socials {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+        div {
+            width: 30px;
+            height: 30px;
+            background-color: #1f1f1f;
+        }
+    }
+    .ContactInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0%;
+        margin-left: 100vw;
+    }
+    100% {
+        margin-left: 0px;
+        opacity: 100%;
+    }
+}
