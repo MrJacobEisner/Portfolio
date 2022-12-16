@@ -1,13 +1,22 @@
 import React from "react";
-function Header(props: any) {
+function Closer(props: any) {
     return (
-        <div className="Header">
-            <div className="Logo">
-                <h4>{props.Logo}</h4>
+        <div className="Closer">
+            <div className="Title">
+                <h1>Let's work</h1>
+                <h1>
+                    together
+                    <span>.</span>
+                </h1>
             </div>
-            <div className="Navigation">{props.children}</div>
+            <div className="Socials">
+                {/* TODO -- ADD ICONS + ACTIONS */}
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
     );
 }
 
-export default Header;
+export default Closer;

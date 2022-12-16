@@ -2,15 +2,16 @@ import React from "react";
 
 function Hero(props: any) {
     return (
-        <div>
+        <div className="Hero">
             <div className="Title">
-                <h1>{props.text1}</h1>
+                <h1>Let's get the</h1>
                 <h1>
-                    {props.text2}
+                    ball rolling
                     <span>.</span>
                 </h1>
             </div>
             <div className="Socials">
+                {/* TODO -- ADD ICONS + ACTIONS */}
                 <div></div>
                 <div></div>
                 <div></div>

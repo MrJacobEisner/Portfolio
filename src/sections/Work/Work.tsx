@@ -1,14 +1,27 @@
 import React from "react";
+import Title from "../../components/Title";
+import Paragraph from "../../components/Paragraph";
+import Card from "../../components/Card";
 
-function Header(props: any) {
+function Work(props: any) {
     return (
-        <div className="Header">
-            <div className="Logo">
-                <h4>{props.Logo}</h4>
+        <div className="Work">
+            <div className="title">
+                <Title>Work Experience</Title>
             </div>
-            <div className="Navigation">{props.children}</div>
+            <div className="content">
+                <Card>
+                    <Paragraph></Paragraph>
+                </Card>
+                <Card>
+                    <Paragraph></Paragraph>
+                </Card>
+                <Card>
+                    <Paragraph></Paragraph>
+                </Card>
+            </div>
         </div>
     );
 }
 
-export default Header;
+export default Work;
