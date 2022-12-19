@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../../components/Title";
+import "./Technology.scss";
 
 function Technology(props: any) {
     return (

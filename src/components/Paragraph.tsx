@@ -7,7 +7,7 @@ function Paragraph(props: any) {
             <h2>{props.title}</h2>
             <h3>{props.subtitle}</h3>
             <h4>{props.header}</h4>
-            <div className="Children">{props.children}</div>
+            <p className="Children">{props.children}</p>
         </div>
     );
 }

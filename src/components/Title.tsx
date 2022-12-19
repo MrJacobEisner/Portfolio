@@ -3,7 +3,7 @@ import React from "react";
 function Title(props: any) {
     return (
         <div className="Title">
-            <h1>{props.children}</h1>
+            <h2>{props.children}</h2>
         </div>
     );
 }

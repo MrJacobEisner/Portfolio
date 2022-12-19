@@ -9,10 +9,8 @@ function Education(props: any) {
     return (
         <div className="Education">
             <div className="Title">
-                <Title>Education</Title>
-            </div>
-            <div className="Subtitle">
                 <Paragraph
+                    title="Education"
                     subtitle="UC Santa Barbara"
                     header="Computer Engineering B.S. 2020 – 2024"
                 ></Paragraph>

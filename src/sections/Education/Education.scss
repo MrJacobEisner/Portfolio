@@ -1,11 +1,11 @@
 .Education {
-    h1 {
-        margin: 0px;
-        color: white;
-    }
-    background-color: #5a75ff;
-    .Subtitle {
-        color: white;
+    background-color: var(--accent);
+    .Title {
+        h2,
+        h3,
+        h4 {
+            color: var(--text_secondary);
+        }
     }
     .Content {
         display: flex;

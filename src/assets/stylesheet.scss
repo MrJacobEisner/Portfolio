@@ -1,0 +1,55 @@
+:root {
+    --accent: #5a75ff;
+    --text_main: #1f1f1f;
+    --text_secondary: white;
+    --primary: white;
+    --secondary: #393939;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 206px;
+    color: var(--text_main);
+}
+h2 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 151px;
+    color: var(--text_main);
+}
+h3 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--text_main);
+}
+h4 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: var(--text_main);
+}
+p,
+li {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--text_main);
+}
